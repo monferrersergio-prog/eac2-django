@@ -1,0 +1,28 @@
+# Entorn virtual Python
+.venv/
+venv/
+env/
+
+
+# Fitxers temporals de Python
+__pycache__/
+*.pyc
+
+# Base de dades local Django
+db.sqlite3
+
+# Variables d'entorn i secrets
+.env
+.env.*
+
+# Registres
+*.log
+
+# Fitxers de proves
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configuracio dels editors
+.idea/
+.vscode/
